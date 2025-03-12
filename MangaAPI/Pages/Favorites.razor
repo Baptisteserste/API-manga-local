@@ -1,0 +1,39 @@
+@page "/favorites"
+@using MangaAPI.Models
+@using MangaAPI.Services
+
+<h3>Liste des favoris</h3>
+
+@if (!favorites.Any())
+{
+    <p>Votre liste de favoris est vide.</p>
+}
+else
+{
+    <div class="anime-list">
+        @foreach (var anime in favorites)
+        {
+            <div class="anime-card">
+                <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" />
+                <h4>@anime.Title</h4>
+                <p>@anime.Synopsis</p>
+                <button @onclick="() => RemoveFromFavorites(anime)">Retirer des favoris</button>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private IReadOnlyList<AnimeModel> favorites = Array.Empty<AnimeModel>();
+
+    protected override void OnInitialized()
+    {
+        favorites = FavoritesService.GetFavorites();
+    }
+
+    private void RemoveFromFavorites(AnimeModel anime)
+    {
+        FavoritesService.RemoveFromFavorites(anime);
+        favorites = FavoritesService.GetFavorites();
+    }
+}

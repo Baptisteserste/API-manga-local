@@ -1,0 +1,43 @@
+@page "/anime"
+@using MangaAPI.Models
+@using MangaAPI.Services
+@inject MangaAPI.Services.JikanService JikanService
+
+<h3>Liste des animes</h3>
+
+@if (animes == null)
+{
+    <p>Chargement...</p>
+}
+else if (!animes.Any())
+{
+    <p>Aucun anime disponible.</p>
+}
+else
+{
+    <div class="anime-list">
+        @foreach (var anime in animes)
+        {
+            <div class="anime-card">
+                <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" />
+                <h4>@anime.Title</h4>
+                <p>@anime.Synopsis</p>
+                <button @onclick="() => AddToFavorites(anime)">Ajouter aux favoris</button>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private List<AnimeModel>? animes;
+
+    protected override async Task OnInitializedAsync()
+    {
+        animes = await JikanService.GetAnimesAsync();
+    }
+
+    private void AddToFavorites(AnimeModel anime)
+    {
+        FavoritesService.AddToFavorites(anime);
+    }
+}

@@ -1075,10 +1075,10 @@ C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\obj\Debug\net9.0\refint\MangaAPI.
 C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\obj\Debug\net9.0\MangaAPI.pdb
 C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\obj\Debug\net9.0\ref\MangaAPI.dll
 C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\obj\Debug\net9.0\MangaAPI.sourcelink.json
-C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\bin\Debug\net9.0\wwwroot\_framework\MangaAPI.g4ek846s54.pdb
-C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\bin\Debug\net9.0\wwwroot\_framework\MangaAPI.pnw3wkv0fq.wasm
-C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\bin\Debug\net9.0\wwwroot\_framework\MangaAPI.pnw3wkv0fq.wasm.gz
-C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\bin\Debug\net9.0\wwwroot\_framework\MangaAPI.g4ek846s54.pdb.gz
-C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\obj\Debug\net9.0\compressed\4y4o6z03up-pnw3wkv0fq.gz
-C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\obj\Debug\net9.0\compressed\lh4xhw251l-g4ek846s54.gz
-C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\obj\Debug\net9.0\compressed\6penfedtzo-67e0cux57r.gz
+C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\bin\Debug\net9.0\wwwroot\_framework\MangaAPI.xplpogjnls.pdb
+C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\bin\Debug\net9.0\wwwroot\_framework\MangaAPI.ytbh9rwqa6.wasm
+C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\bin\Debug\net9.0\wwwroot\_framework\MangaAPI.ytbh9rwqa6.wasm.gz
+C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\bin\Debug\net9.0\wwwroot\_framework\MangaAPI.xplpogjnls.pdb.gz
+C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\obj\Debug\net9.0\compressed\4y4o6z03up-ytbh9rwqa6.gz
+C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\obj\Debug\net9.0\compressed\lh4xhw251l-xplpogjnls.gz
+C:\Users\bapti\RiderProjects\MangaAPI\MangaAPI\obj\Debug\net9.0\compressed\6penfedtzo-evq4yfmrb7.gz

@@ -18,7 +18,6 @@ public class JikanService
         return response?.Data ?? new List<AnimeModel>();
     }
     
-    // Modèle pour l'API Jikan
     private class MangaAPIResponse
     {
         public List<AnimeModel> Data { get; set; } = new();

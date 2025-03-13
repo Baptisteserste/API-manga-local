@@ -1,23 +1,40 @@
 using MangaAPI.Models;
+using MangaAPI.Services;
 
 namespace MangaAPI.Services;
 
-public static class FavoritesService
+public class FavoritesService
 {
-    private static readonly List<AnimeModel> Favorites = new();
+    private const string StorageKey = "favorites";
+    private readonly LocalStorageService _localStorageService;
 
-    public static IReadOnlyList<AnimeModel> GetFavorites() => Favorites.AsReadOnly();
-
-    public static void AddToFavorites(AnimeModel anime)
+    public FavoritesService(LocalStorageService localStorageService)
     {
-        if (!Favorites.Any(a => a.Mal_id == anime.Mal_id))
+        _localStorageService = localStorageService;
+    }
+
+    public async Task<List<AnimeModel>> GetFavoritesAsync()
+    {
+        var favorites = await _localStorageService.GetItemAsync<List<AnimeModel>>(StorageKey);
+        return favorites ?? new List<AnimeModel>(); 
+    }
+
+    public async Task AddToFavoritesAsync(AnimeModel anime)
+    {
+        var favorites = await GetFavoritesAsync();
+
+        if (!favorites.Any(a => a.Mal_id == anime.Mal_id))
         {
-            Favorites.Add(anime);
+            favorites.Add(anime);
+            await _localStorageService.SetItemAsync(StorageKey, favorites); 
         }
     }
 
-    public static void RemoveFromFavorites(AnimeModel anime)
+    public async Task RemoveFromFavoritesAsync(AnimeModel anime)
     {
-        Favorites.RemoveAll(a => a.Mal_id == anime.Mal_id);
+        var favorites = await GetFavoritesAsync();
+        favorites.RemoveAll(a => a.Mal_id == anime.Mal_id);
+
+        await _localStorageService.SetItemAsync(StorageKey, favorites); 
     }
 }

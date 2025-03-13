@@ -1,10 +1,15 @@
 @page "/favorites"
 @using MangaAPI.Models
 @using MangaAPI.Services
+@inject FavoritesService FavoritesService
 
 <h3>Liste des favoris</h3>
 
-@if (!favorites.Any())
+@if (favorites == null)
+{
+    <p>Chargement...</p>
+}
+else if (!favorites.Any())
 {
     <p>Votre liste de favoris est vide.</p>
 }
@@ -24,16 +29,16 @@ else
 }
 
 @code {
-    private IReadOnlyList<AnimeModel> favorites = Array.Empty<AnimeModel>();
+    private List<AnimeModel>? favorites;
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        favorites = FavoritesService.GetFavorites();
+        favorites = await FavoritesService.GetFavoritesAsync();
     }
 
-    private void RemoveFromFavorites(AnimeModel anime)
+    private async Task RemoveFromFavorites(AnimeModel anime)
     {
-        FavoritesService.RemoveFromFavorites(anime);
-        favorites = FavoritesService.GetFavorites();
+        await FavoritesService.RemoveFromFavoritesAsync(anime);
+        favorites = await FavoritesService.GetFavoritesAsync();
     }
 }

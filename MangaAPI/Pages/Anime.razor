@@ -1,7 +1,8 @@
 @page "/anime"
 @using MangaAPI.Models
 @using MangaAPI.Services
-@inject MangaAPI.Services.JikanService JikanService
+@inject JikanService JikanService
+@inject FavoritesService FavoritesService
 
 <h3>Liste des animes</h3>
 
@@ -36,8 +37,8 @@ else
         animes = await JikanService.GetAnimesAsync();
     }
 
-    private void AddToFavorites(AnimeModel anime)
+    private async Task AddToFavorites(AnimeModel anime)
     {
-        FavoritesService.AddToFavorites(anime);
+        await FavoritesService.AddToFavoritesAsync(anime);
     }
 }

@@ -8,7 +8,7 @@ public class JikanService
 {
     private readonly HttpClient _httpClient; // Client HTTP utilisé pour faire des appels externes à l'API Jikan
 
-    // Constructeur du service JikanService. Le HttpClient est injecté (Dependency Injection).
+    // Constructeur du service JikanService. Le HttpClient est injecté .
     public JikanService(HttpClient httpClient)
     {
         _httpClient = httpClient;

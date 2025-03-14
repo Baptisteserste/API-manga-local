@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MangaAPI",
   "resources": {
-    "hash": "sha256-aBBruQNVAfaSjwF5zg0ZHbGWeCZRgDwHqhU0NqwHv+4=",
+    "hash": "sha256-adBt7IcVvpEE5g+icslhc13p5SdIihxn2LEgkXSsrFc=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "MangaAPI.tmq3h4zq8j.wasm": "MangaAPI.wasm",
-      "MangaAPI.76erm425ej.pdb": "MangaAPI.pdb"
+      "MangaAPI.cp6xkepgw2.wasm": "MangaAPI.wasm",
+      "MangaAPI.z9xyz9gj72.pdb": "MangaAPI.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -412,10 +412,10 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "MangaAPI.tmq3h4zq8j.wasm": "sha256-a2WJdWQS/oyoepHtj2DBEUoo/5K4BNIATtG+8Oahj5E="
+      "MangaAPI.cp6xkepgw2.wasm": "sha256-MLyRxKW0zFhk5z/8299QM5lmALM90RcIXpmOdEMw/c8="
     },
     "pdb": {
-      "MangaAPI.76erm425ej.pdb": "sha256-gblOO1zafFnHcbbwUPw1kGUqddmPDIOd6XYzweDQ7+Q="
+      "MangaAPI.z9xyz9gj72.pdb": "sha256-92NYvUXntxYvjSVJTXLDGyFIX2fJx8gRw0OW0Ue2L70="
     }
   },
   "cacheBootResources": true,

@@ -3,7 +3,7 @@ using System.Text.Json; // Utilisé pour la sérialisation et la désérialisati
 
 namespace MangaAPI.Services;
 
-// Service pour gérer le stockage local via JavaScript (localStorage)
+// Service pour gérer le stockage local via JavaScript
 public class LocalStorageService
 {
     private readonly IJSRuntime _jsRuntime; // Instance de IJSRuntime utilisée pour exécuter du code JavaScript

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZzeJhalndnXnd+qAlQkiGo/AnXOROwjIM4ZCwHHYT3Q=",
+  "Hash": "Gs4AFtRYeYMtx3ZNMilikuHHeXwmVQLa56G6i6Tssf8=",
   "Source": "MangaAPI",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "evq4yfmrb7",
-      "Integrity": "9oCi44wkj1TnaPQUjDqnJxV8SFsD6br9zrjkjyG1/0E=",
+      "Fingerprint": "7w3bi8rftw",
+      "Integrity": "d8rzVpZMzvNcya5aHew4n4ovBi1LyAAmx6pSxthBtvs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "xplpogjnls",
-      "Integrity": "y32xVK/7wUydGnQQj20puCW90bIYRd+cD3rBxz2Yrio=",
+      "Fingerprint": "76erm425ej",
+      "Integrity": "gblOO1zafFnHcbbwUPw1kGUqddmPDIOd6XYzweDQ7+Q=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\MangaAPI.pdb"
@@ -283,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "ytbh9rwqa6",
-      "Integrity": "JssYpOsJEvBUxVIYakdtijBAKZ7T7jam8/Kut7oKE3U=",
+      "Fingerprint": "tmq3h4zq8j",
+      "Integrity": "a2WJdWQS/oyoepHtj2DBEUoo/5K4BNIATtG+8Oahj5E=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\webcil\\MangaAPI.wasm"
@@ -4784,12 +4784,12 @@
       "OriginalItemSpec": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.Http.Json.wasm"
     },
     {
-      "Identity": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\4y4o6z03up-ytbh9rwqa6.gz",
+      "Identity": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\4y4o6z03up-tmq3h4zq8j.gz",
       "SourceId": "MangaAPI",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/MangaAPI#[.{fingerprint=ytbh9rwqa6}]!.wasm.gz",
+      "RelativePath": "_framework/MangaAPI#[.{fingerprint=tmq3h4zq8j}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4798,8 +4798,8 @@
       "RelatedAsset": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MangaAPI.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6oztvnl9v2",
-      "Integrity": "1iSoewHRmr4tgFaFdzepzGMHtZITELfyfFrTU+5oviM=",
+      "Fingerprint": "uz6nyatttg",
+      "Integrity": "1qLuxgaarz6XvaLvCSim7BjeJTGpil8iM8FRiGZHiwg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MangaAPI.wasm"
@@ -5015,7 +5015,7 @@
       "OriginalItemSpec": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.VisualBasic.wasm"
     },
     {
-      "Identity": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\6penfedtzo-evq4yfmrb7.gz",
+      "Identity": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\6penfedtzo-7w3bi8rftw.gz",
       "SourceId": "MangaAPI",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\",
@@ -5029,8 +5029,8 @@
       "RelatedAsset": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "y3le1u2fqp",
-      "Integrity": "ouSaeWBtM/iyidWIp5hxuDAdZXWvKwKKUSl2PHxl4Sk=",
+      "Fingerprint": "41sygvwasz",
+      "Integrity": "aC51Gd9kobV8Wg6FUd9X8pvyukHjLQ8St6N+UvgVtj4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7472,12 +7472,12 @@
       "OriginalItemSpec": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Runtime.Extensions.wasm"
     },
     {
-      "Identity": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\lh4xhw251l-xplpogjnls.gz",
+      "Identity": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\lh4xhw251l-76erm425ej.gz",
       "SourceId": "MangaAPI",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/MangaAPI#[.{fingerprint=xplpogjnls}]!.pdb.gz",
+      "RelativePath": "_framework/MangaAPI#[.{fingerprint=76erm425ej}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7486,8 +7486,8 @@
       "RelatedAsset": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MangaAPI.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "n1h04vo4y3",
-      "Integrity": "tcnub+nT9juX5fL8wpwKdvPS0b2XK68O0GNtusvTdB4=",
+      "Fingerprint": "g8d6cvr12i",
+      "Integrity": "gB8fChk7d0vItoQZsJ4FEhrlO2/mwgsrggESegnSLlE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MangaAPI.pdb"
@@ -10705,11 +10705,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9oCi44wkj1TnaPQUjDqnJxV8SFsD6br9zrjkjyG1/0E=\""
+          "Value": "\"d8rzVpZMzvNcya5aHew4n4ovBi1LyAAmx6pSxthBtvs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 20:02:40 GMT"
+          "Value": "Fri, 14 Mar 2025 15:34:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10719,18 +10719,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9oCi44wkj1TnaPQUjDqnJxV8SFsD6br9zrjkjyG1/0E="
+          "Value": "sha256-d8rzVpZMzvNcya5aHew4n4ovBi1LyAAmx6pSxthBtvs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\6penfedtzo-evq4yfmrb7.gz",
+      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\6penfedtzo-7w3bi8rftw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081214976"
+          "Quality": "0.000081175420"
         }
       ],
       "ResponseHeaders": [
@@ -10740,15 +10740,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12312"
+          "Value": "12318"
         },
         {
           "Name": "ETag",
-          "Value": "\"ouSaeWBtM/iyidWIp5hxuDAdZXWvKwKKUSl2PHxl4Sk=\""
+          "Value": "\"aC51Gd9kobV8Wg6FUd9X8pvyukHjLQ8St6N+UvgVtj4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:57:44 GMT"
+          "Value": "Fri, 14 Mar 2025 15:32:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10768,19 +10768,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"9oCi44wkj1TnaPQUjDqnJxV8SFsD6br9zrjkjyG1/0E=\""
+          "Value": "W/\"d8rzVpZMzvNcya5aHew4n4ovBi1LyAAmx6pSxthBtvs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9oCi44wkj1TnaPQUjDqnJxV8SFsD6br9zrjkjyG1/0E="
+          "Value": "sha256-d8rzVpZMzvNcya5aHew4n4ovBi1LyAAmx6pSxthBtvs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\6penfedtzo-evq4yfmrb7.gz",
+      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\6penfedtzo-7w3bi8rftw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10789,7 +10789,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12312"
+          "Value": "12318"
         },
         {
           "Name": "Content-Type",
@@ -10797,11 +10797,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ouSaeWBtM/iyidWIp5hxuDAdZXWvKwKKUSl2PHxl4Sk=\""
+          "Value": "\"aC51Gd9kobV8Wg6FUd9X8pvyukHjLQ8St6N+UvgVtj4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:57:44 GMT"
+          "Value": "Fri, 14 Mar 2025 15:32:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10819,7 +10819,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ouSaeWBtM/iyidWIp5hxuDAdZXWvKwKKUSl2PHxl4Sk="
+          "Value": "sha256-aC51Gd9kobV8Wg6FUd9X8pvyukHjLQ8St6N+UvgVtj4="
         }
       ]
     },
@@ -13643,7 +13643,7 @@
       ]
     },
     {
-      "Route": "_framework/MangaAPI.pdb",
+      "Route": "_framework/MangaAPI.76erm425ej.pdb",
       "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MangaAPI.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13653,7 +13653,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30328"
+          "Value": "31020"
         },
         {
           "Name": "Content-Type",
@@ -13661,285 +13661,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y32xVK/7wUydGnQQj20puCW90bIYRd+cD3rBxz2Yrio=\""
+          "Value": "\"gblOO1zafFnHcbbwUPw1kGUqddmPDIOd6XYzweDQ7+Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:37:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-y32xVK/7wUydGnQQj20puCW90bIYRd+cD3rBxz2Yrio="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MangaAPI.pdb",
-      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\lh4xhw251l-xplpogjnls.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000045779161"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21843"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tcnub+nT9juX5fL8wpwKdvPS0b2XK68O0GNtusvTdB4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:37:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"y32xVK/7wUydGnQQj20puCW90bIYRd+cD3rBxz2Yrio=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-y32xVK/7wUydGnQQj20puCW90bIYRd+cD3rBxz2Yrio="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MangaAPI.pdb.gz",
-      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\lh4xhw251l-xplpogjnls.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21843"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tcnub+nT9juX5fL8wpwKdvPS0b2XK68O0GNtusvTdB4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:37:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tcnub+nT9juX5fL8wpwKdvPS0b2XK68O0GNtusvTdB4="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MangaAPI.wasm",
-      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MangaAPI.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32021"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JssYpOsJEvBUxVIYakdtijBAKZ7T7jam8/Kut7oKE3U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:37:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-JssYpOsJEvBUxVIYakdtijBAKZ7T7jam8/Kut7oKE3U="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MangaAPI.wasm",
-      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\4y4o6z03up-ytbh9rwqa6.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000073120796"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13675"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1iSoewHRmr4tgFaFdzepzGMHtZITELfyfFrTU+5oviM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:37:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"JssYpOsJEvBUxVIYakdtijBAKZ7T7jam8/Kut7oKE3U=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-JssYpOsJEvBUxVIYakdtijBAKZ7T7jam8/Kut7oKE3U="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MangaAPI.wasm.gz",
-      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\4y4o6z03up-ytbh9rwqa6.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13675"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1iSoewHRmr4tgFaFdzepzGMHtZITELfyfFrTU+5oviM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:37:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1iSoewHRmr4tgFaFdzepzGMHtZITELfyfFrTU+5oviM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MangaAPI.xplpogjnls.pdb",
-      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MangaAPI.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30328"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"y32xVK/7wUydGnQQj20puCW90bIYRd+cD3rBxz2Yrio=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:37:57 GMT"
+          "Value": "Fri, 14 Mar 2025 15:27:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13949,7 +13675,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xplpogjnls"
+          "Value": "76erm425ej"
         },
         {
           "Name": "label",
@@ -13957,18 +13683,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-y32xVK/7wUydGnQQj20puCW90bIYRd+cD3rBxz2Yrio="
+          "Value": "sha256-gblOO1zafFnHcbbwUPw1kGUqddmPDIOd6XYzweDQ7+Q="
         }
       ]
     },
     {
-      "Route": "_framework/MangaAPI.xplpogjnls.pdb",
-      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\lh4xhw251l-xplpogjnls.gz",
+      "Route": "_framework/MangaAPI.76erm425ej.pdb",
+      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\lh4xhw251l-76erm425ej.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000045779161"
+          "Quality": "0.000044336067"
         }
       ],
       "ResponseHeaders": [
@@ -13978,15 +13704,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21843"
+          "Value": "22554"
         },
         {
           "Name": "ETag",
-          "Value": "\"tcnub+nT9juX5fL8wpwKdvPS0b2XK68O0GNtusvTdB4=\""
+          "Value": "\"gB8fChk7d0vItoQZsJ4FEhrlO2/mwgsrggESegnSLlE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:37:58 GMT"
+          "Value": "Fri, 14 Mar 2025 15:27:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14006,13 +13732,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"y32xVK/7wUydGnQQj20puCW90bIYRd+cD3rBxz2Yrio=\""
+          "Value": "W/\"gblOO1zafFnHcbbwUPw1kGUqddmPDIOd6XYzweDQ7+Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xplpogjnls"
+          "Value": "76erm425ej"
         },
         {
           "Name": "label",
@@ -14020,13 +13746,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-y32xVK/7wUydGnQQj20puCW90bIYRd+cD3rBxz2Yrio="
+          "Value": "sha256-gblOO1zafFnHcbbwUPw1kGUqddmPDIOd6XYzweDQ7+Q="
         }
       ]
     },
     {
-      "Route": "_framework/MangaAPI.xplpogjnls.pdb.gz",
-      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\lh4xhw251l-xplpogjnls.gz",
+      "Route": "_framework/MangaAPI.76erm425ej.pdb.gz",
+      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\lh4xhw251l-76erm425ej.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14035,7 +13761,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21843"
+          "Value": "22554"
         },
         {
           "Name": "Content-Type",
@@ -14043,11 +13769,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tcnub+nT9juX5fL8wpwKdvPS0b2XK68O0GNtusvTdB4=\""
+          "Value": "\"gB8fChk7d0vItoQZsJ4FEhrlO2/mwgsrggESegnSLlE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:37:58 GMT"
+          "Value": "Fri, 14 Mar 2025 15:27:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14065,7 +13791,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xplpogjnls"
+          "Value": "76erm425ej"
         },
         {
           "Name": "label",
@@ -14073,12 +13799,149 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tcnub+nT9juX5fL8wpwKdvPS0b2XK68O0GNtusvTdB4="
+          "Value": "sha256-gB8fChk7d0vItoQZsJ4FEhrlO2/mwgsrggESegnSLlE="
         }
       ]
     },
     {
-      "Route": "_framework/MangaAPI.ytbh9rwqa6.wasm",
+      "Route": "_framework/MangaAPI.pdb",
+      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MangaAPI.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31020"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gblOO1zafFnHcbbwUPw1kGUqddmPDIOd6XYzweDQ7+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 15:27:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gblOO1zafFnHcbbwUPw1kGUqddmPDIOd6XYzweDQ7+Q="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MangaAPI.pdb",
+      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\lh4xhw251l-76erm425ej.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000044336067"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22554"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gB8fChk7d0vItoQZsJ4FEhrlO2/mwgsrggESegnSLlE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 15:27:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gblOO1zafFnHcbbwUPw1kGUqddmPDIOd6XYzweDQ7+Q=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gblOO1zafFnHcbbwUPw1kGUqddmPDIOd6XYzweDQ7+Q="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MangaAPI.pdb.gz",
+      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\lh4xhw251l-76erm425ej.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gB8fChk7d0vItoQZsJ4FEhrlO2/mwgsrggESegnSLlE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 15:27:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gB8fChk7d0vItoQZsJ4FEhrlO2/mwgsrggESegnSLlE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MangaAPI.tmq3h4zq8j.wasm",
       "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MangaAPI.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -14088,7 +13951,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32021"
+          "Value": "32533"
         },
         {
           "Name": "Content-Type",
@@ -14096,11 +13959,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JssYpOsJEvBUxVIYakdtijBAKZ7T7jam8/Kut7oKE3U=\""
+          "Value": "\"a2WJdWQS/oyoepHtj2DBEUoo/5K4BNIATtG+8Oahj5E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:37:57 GMT"
+          "Value": "Fri, 14 Mar 2025 15:27:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14110,7 +13973,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ytbh9rwqa6"
+          "Value": "tmq3h4zq8j"
         },
         {
           "Name": "label",
@@ -14118,18 +13981,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JssYpOsJEvBUxVIYakdtijBAKZ7T7jam8/Kut7oKE3U="
+          "Value": "sha256-a2WJdWQS/oyoepHtj2DBEUoo/5K4BNIATtG+8Oahj5E="
         }
       ]
     },
     {
-      "Route": "_framework/MangaAPI.ytbh9rwqa6.wasm",
-      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\4y4o6z03up-ytbh9rwqa6.gz",
+      "Route": "_framework/MangaAPI.tmq3h4zq8j.wasm",
+      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\4y4o6z03up-tmq3h4zq8j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000073120796"
+          "Quality": "0.000072191741"
         }
       ],
       "ResponseHeaders": [
@@ -14139,15 +14002,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13675"
+          "Value": "13851"
         },
         {
           "Name": "ETag",
-          "Value": "\"1iSoewHRmr4tgFaFdzepzGMHtZITELfyfFrTU+5oviM=\""
+          "Value": "\"1qLuxgaarz6XvaLvCSim7BjeJTGpil8iM8FRiGZHiwg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:37:58 GMT"
+          "Value": "Fri, 14 Mar 2025 15:27:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14167,13 +14030,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JssYpOsJEvBUxVIYakdtijBAKZ7T7jam8/Kut7oKE3U=\""
+          "Value": "W/\"a2WJdWQS/oyoepHtj2DBEUoo/5K4BNIATtG+8Oahj5E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ytbh9rwqa6"
+          "Value": "tmq3h4zq8j"
         },
         {
           "Name": "label",
@@ -14181,13 +14044,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JssYpOsJEvBUxVIYakdtijBAKZ7T7jam8/Kut7oKE3U="
+          "Value": "sha256-a2WJdWQS/oyoepHtj2DBEUoo/5K4BNIATtG+8Oahj5E="
         }
       ]
     },
     {
-      "Route": "_framework/MangaAPI.ytbh9rwqa6.wasm.gz",
-      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\4y4o6z03up-ytbh9rwqa6.gz",
+      "Route": "_framework/MangaAPI.tmq3h4zq8j.wasm.gz",
+      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\4y4o6z03up-tmq3h4zq8j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14196,7 +14059,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13675"
+          "Value": "13851"
         },
         {
           "Name": "Content-Type",
@@ -14204,11 +14067,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1iSoewHRmr4tgFaFdzepzGMHtZITELfyfFrTU+5oviM=\""
+          "Value": "\"1qLuxgaarz6XvaLvCSim7BjeJTGpil8iM8FRiGZHiwg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:37:58 GMT"
+          "Value": "Fri, 14 Mar 2025 15:27:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14226,7 +14089,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ytbh9rwqa6"
+          "Value": "tmq3h4zq8j"
         },
         {
           "Name": "label",
@@ -14234,7 +14097,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1iSoewHRmr4tgFaFdzepzGMHtZITELfyfFrTU+5oviM="
+          "Value": "sha256-1qLuxgaarz6XvaLvCSim7BjeJTGpil8iM8FRiGZHiwg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MangaAPI.wasm",
+      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MangaAPI.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a2WJdWQS/oyoepHtj2DBEUoo/5K4BNIATtG+8Oahj5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 15:27:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a2WJdWQS/oyoepHtj2DBEUoo/5K4BNIATtG+8Oahj5E="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MangaAPI.wasm",
+      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\4y4o6z03up-tmq3h4zq8j.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000072191741"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13851"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1qLuxgaarz6XvaLvCSim7BjeJTGpil8iM8FRiGZHiwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 15:27:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"a2WJdWQS/oyoepHtj2DBEUoo/5K4BNIATtG+8Oahj5E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a2WJdWQS/oyoepHtj2DBEUoo/5K4BNIATtG+8Oahj5E="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MangaAPI.wasm.gz",
+      "AssetFile": "C:\\Users\\bapti\\RiderProjects\\MangaAPI\\MangaAPI\\obj\\Debug\\net9.0\\compressed\\4y4o6z03up-tmq3h4zq8j.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13851"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1qLuxgaarz6XvaLvCSim7BjeJTGpil8iM8FRiGZHiwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 15:27:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1qLuxgaarz6XvaLvCSim7BjeJTGpil8iM8FRiGZHiwg="
         }
       ]
     },

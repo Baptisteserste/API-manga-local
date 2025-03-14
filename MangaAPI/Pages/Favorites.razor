@@ -1,27 +1,38 @@
-@page "/favorites"
-@using MangaAPI.Models
-@using MangaAPI.Services
+@page "/favorites" // Définit l'URL de la page en tant que "/favorites"
+@using MangaAPI.Models // Importation du namespace contenant le modèle AnimeModel
+@using MangaAPI.Services // Importation des services nécessaires, comme FavoritesService
 @inject FavoritesService FavoritesService
 
 <h3>Liste des favoris</h3>
 
 @if (favorites == null)
 {
+    // Message affiché pendant le chargement des favoris
     <p>Chargement...</p>
 }
 else if (!favorites.Any())
 {
+    // Message affiché si la liste de favoris est vide
     <p>Votre liste de favoris est vide.</p>
 }
 else
 {
+    // Affichage des favoris lorsque la liste n'est pas vide
     <div class="anime-list">
         @foreach (var anime in favorites)
         {
+            // Une carte est générée pour chaque anime de la liste
             <div class="anime-card">
+                <!-- Affiche l'image de l'anime -->
                 <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" />
+
+                <!-- Affiche le titre de l'anime -->
                 <h4>@anime.Title</h4>
+
+                <!-- Affiche le synopsis de l'anime -->
                 <p>@anime.Synopsis</p>
+
+                <!-- Bouton pour retirer l'anime des favoris -->
                 <button @onclick="() => RemoveFromFavorites(anime)">Retirer des favoris</button>
             </div>
         }
@@ -29,16 +40,22 @@ else
 }
 
 @code {
-    private List<AnimeModel>? favorites;
+    private List<AnimeModel>? favorites; // Liste locale des favoris récupérée depuis le stockage
 
+    // Méthode appelée quand le composant est initialisé (chargement des favoris)
     protected override async Task OnInitializedAsync()
     {
+        // Chargement des favoris depuis le service
         favorites = await FavoritesService.GetFavoritesAsync();
     }
 
+    // Méthode pour retirer un anime de la liste des favoris
     private async Task RemoveFromFavorites(AnimeModel anime)
     {
+        // Supprime l'anime des favoris via le service
         await FavoritesService.RemoveFromFavoritesAsync(anime);
+
+        // Recharge les favoris après la suppression pour mettre à jour l'affichage
         favorites = await FavoritesService.GetFavoritesAsync();
     }
 }

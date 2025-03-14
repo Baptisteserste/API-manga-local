@@ -1,28 +1,39 @@
-@page "/anime"
-@using MangaAPI.Models
-@using MangaAPI.Services
-@inject JikanService JikanService
-@inject FavoritesService FavoritesService
+@page "/anime" // Définit l'URL de cette page en tant que "/anime"
+@using MangaAPI.Models // Importation des modèles comme `AnimeModel`
+@using MangaAPI.Services // Importation des services pour interagir avec l'API et le stockage des favoris
+@inject JikanService JikanService 
+@inject FavoritesService FavoritesService 
 
 <h3>Liste des animes</h3>
 
 @if (animes == null)
 {
+    // Affiche un message pendant le chargement des données
     <p>Chargement...</p>
 }
 else if (!animes.Any())
 {
+    // Affiche un message si aucune donnée d'anime n'est disponible
     <p>Aucun anime disponible.</p>
 }
 else
 {
+    // Affiche la liste des animes si des données sont disponibles
     <div class="anime-list">
         @foreach (var anime in animes)
         {
+            // Une carte est générée pour chaque anime de la liste
             <div class="anime-card">
+                <!-- Affichage de l'image de l'anime -->
                 <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" />
+
+                <!-- Affichage du titre de l'anime -->
                 <h4>@anime.Title</h4>
+
+                <!-- Affichage du synopsis de l'anime -->
                 <p>@anime.Synopsis</p>
+
+                <!-- Bouton permettant d'ajouter l'anime aux favoris -->
                 <button @onclick="() => AddToFavorites(anime)">Ajouter aux favoris</button>
             </div>
         }
@@ -30,15 +41,19 @@ else
 }
 
 @code {
-    private List<AnimeModel>? animes;
+    private List<AnimeModel>? animes; // Liste contenant les animes chargés depuis l'API
 
+    // Cette méthode est appelée automatiquement lors de l'initialisation du composant
     protected override async Task OnInitializedAsync()
     {
+        // Récupère la liste des animes depuis le service JikanService
         animes = await JikanService.GetAnimesAsync();
     }
 
+    // Méthode pour ajouter un anime aux favoris
     private async Task AddToFavorites(AnimeModel anime)
     {
+        // Appelle le service FavoritesService pour ajouter l'anime aux favoris
         await FavoritesService.AddToFavoritesAsync(anime);
     }
 }
